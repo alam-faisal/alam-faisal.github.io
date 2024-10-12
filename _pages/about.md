@@ -30,7 +30,7 @@ Previous research interests include gravitational waves and bound states in quan
 </div>
 
 <div style="display: flex; align-items: center;">
-  <img src="../images/fnm-logo.png" alt="Logo" style="margin-right: 20px;"/>
+  <img src="../images/fnm-logo.eps" alt="Logo" style="margin-right: 20px;"/>
   <div>
     <p><strong>Franklin & Marshall College</p>
     <p>Bachelor in Physics and Mathematics </p>

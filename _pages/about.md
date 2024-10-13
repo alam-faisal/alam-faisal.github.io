@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a graduate student specializing in quantum information at the University of Illinois, where I am a member of the [Clark group](https://clark.physics.illinois.edu/). I am also currently visiting Los Alamos National Lab as a research assistant supervised by Lukasz Cincio. 
+I'm a graduate student specializing in quantum information at the University of Illinois, where I am a member of the [Clark group](https://clark.physics.illinois.edu/). I am currently visiting Los Alamos National Lab as a research assistant supervised by Lukasz Cincio. 
 
 The research directions I am most excited about right now are: 
 * dynamic quantum circuits,

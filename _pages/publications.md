@@ -5,10 +5,18 @@ permalink: /publications/
 author_profile: true
 ---
 
-# Your Publications
+[Learning dynamic quantum circuits for efficient state preparation](arxiv.org)
 
-Here you can list your publications.
+[Multi-reference quantum Davidson algorithm for quantum dynamics](https://arxiv.org/abs/2406.08675)
 
-- Publication 1: [Title](link)
-- Publication 2: [Title](link)
-- Publication 3: [Title](link)
+[Coulomb expectation values in $D=3$ and $D=3−2ε\varepsilon$ dimensions](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.101.042511)
+
+[The NANOGrav 15 yr data set: Observations and timing of 68 millisecond pulsars](https://iopscience.iop.org/article/10.3847/2041-8213/acda9a/meta)
+
+[The NANOGrav 12.5 yr data set: wideband timing of 47 millisecond pulsars](https://iopscience.iop.org/article/10.3847/1538-4365/abc6a1/meta)
+
+[The NANOGrav 12.5-year Data Set: Observations and Narrowband Timing of 47 Millisecond Pulsars](https://iopscience.iop.org/article/10.3847/1538-4365/abc6a0)
+
+[A Parkes "Murriyang" Search for Pulsars and Fast Transients in the Large Magellanic Cloud](https://iopscience.iop.org/article/10.3847/1538-4357/ac5802)
+
+[PALFA single-pulse pipeline: new pulsars, rotating radio transients, and a candidate fast radio burst](https://iopscience.iop.org/article/10.3847/1538-4357/aaee65/meta)

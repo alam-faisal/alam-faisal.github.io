@@ -12,7 +12,7 @@ I'm a graduate student specializing in quantum information at the University of 
 The research directions I am most excited about right now are: 
 * dynamic quantum circuits,
 * tensor networks for quantum information,
-* quantum algorithms for time evolution.
+* algorithms for quantum evolution and compilation.
 
 In the past I have worked on gravitational waves and bound states in quantum field theories. 
 

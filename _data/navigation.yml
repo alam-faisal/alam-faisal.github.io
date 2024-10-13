@@ -6,7 +6,7 @@
 
 main:
   - title: "Publications"
-    url: /_pages/publications/
+    url: /publications/
 
   - title: "CV"
     url: /files/alam_resume.pdf/

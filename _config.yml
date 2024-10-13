@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "About me"
+title                    : "Faisal"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "PhD student, Department of Physics, University of Illinois at Urbana-Champaign"

@@ -5,10 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-a {
-  text-decoration: none;
-}
-
 
 [Learning dynamic quantum circuits for efficient state preparation](arxiv.org)
 

@@ -1,8 +1,9 @@
----
-layout: default  # or whichever layout you prefer
-title: "Publications"
-permalink: /publications/
----
+permalink: /
+title: ""
+author_profile: true
+redirect_from: 
+  - /publications/
+  - /publications.html
 
 # Your Publications
 

@@ -5,11 +5,13 @@ permalink: /publications/
 author_profile: true
 ---
 
+
+
 [Learning dynamic quantum circuits for efficient state preparation](arxiv.org)
 
 [Multi-reference quantum Davidson algorithm for quantum dynamics](https://arxiv.org/abs/2406.08675)
 
-[Coulomb expectation values in $D=3$ and $D=3−2ε\varepsilon$ dimensions](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.101.042511)
+[Coulomb expectation values in $$D=3$$ and $$D=3−2\varepsilon$$ dimensions](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.101.042511)
 
 [The NANOGrav 15 yr data set: Observations and timing of 68 millisecond pulsars](https://iopscience.iop.org/article/10.3847/2041-8213/acda9a/meta)
 

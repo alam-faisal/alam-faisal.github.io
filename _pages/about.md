@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
+<h1 style="display: none;">Your Page Header</h1>
+
 I'm a graduate student specializing in quantum information at the University of Illinois, where I am a member of the [Clark group](https://clark.physics.illinois.edu/). I am also currently visiting Los Alamos National Lab as a research assistant supervised by Lukasz Cincio. 
 
 The research directions I am most excited about right now are: 

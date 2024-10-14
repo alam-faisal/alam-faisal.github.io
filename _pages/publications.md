@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 
-[Learning dynamic quantum circuits for efficient state preparation](arxiv.org)
+[Learning dynamic quantum circuits for efficient state preparation](https://arxiv.org/abs/2410.09030)
 
 [Multi-reference quantum Davidson algorithm for quantum dynamics](https://arxiv.org/abs/2406.08675)
 

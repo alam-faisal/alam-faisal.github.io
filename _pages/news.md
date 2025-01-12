@@ -34,6 +34,8 @@ author_profile: true
     margin-bottom: 20px;
   }
 
+  /* Circle removed by commenting out this section */
+  /*
   .entry::before {
     content: '';
     position: absolute;
@@ -45,6 +47,7 @@ author_profile: true
     left: -37px;
     top: 15px;
   }
+  */
 
   .date {
     position: absolute;
@@ -72,57 +75,53 @@ author_profile: true
     line-height: 1.4;
   }
 </style>
-</head>
-<body>
-  <div class="timeline">
-    <div class="entry">
-      <span class="date">Dec 27, 2024</span>
-      <div class="content">
-        <h3>Preprint: Transmon qutrit-based simulation of spin-1 AKLT systems</h3>
-        <p>Published manuscript "Transmon qutrit-based simulation of spin-1 AKLT systems" on arXiv</p>
-      </div>
-    </div>
 
-    <div class="entry">
-      <span class="date">Oct 31, 2024</span>
-      <div class="content">
-        <h3>SQuInT presentation</h3>
-        <p>Presented "Random matrix product states are pseudoentangled" at the SQuInT 2024 Annual Workshop</p>
-      </div>
-    </div>
-
-    <div class="entry">
-      <span class="date">Oct 11, 2024</span>
-      <div class="content">
-        <h3>Preprint: Learning dynamic quantum circuits for efficient state preparation</h3>
-        <p>Published manuscript "Learning dynamic quantum circuits for efficient state preparation" on arXiv</p>
-      </div>
-    </div>
-
-    <div class="entry">
-      <span class="date">Jun 12, 2024</span>
-      <div class="content">
-        <h3>Preprint: Multi-reference Quantum Davidson Algorithm for Quantum Dynamics </h3>
-        <p>Published manuscript "Multi-reference Quantum Davidson Algorithm for Quantum Dynamics" on arXiv</p>
-      </div>
-    </div>
-
-    <div class="entry">
-      <span class="date">Mar 5, 2024</span>
-      <div class="content">
-        <h3>March Meeting Presentation</h3>
-        <p>Presented "Learning dynamic quantum circuits for state preparation" at the 2024 APS March Meeting
-</p>
-      </div>
-    </div>
-
-    <div class="entry">
-      <span class="date">Jan 1, 2024</span>
-      <div class="content">
-        <h3>Joined LANL</h3>
-        <p>Started position as graduate research assistant at Los Alamos National Laboratory</p>
-      </div>
+<div class="timeline">
+  <div class="entry">
+    <span class="date">Dec 27, 2024</span>
+    <div class="content">
+      <h3>Preprint: Transmon qutrit-based simulation of spin-1 AKLT systems</h3>
+      <p>Published manuscript "Transmon qutrit-based simulation of spin-1 AKLT systems" on arXiv</p>
     </div>
   </div>
-</body>
-</html>
+
+  <div class="entry">
+    <span class="date">Oct 31, 2024</span>
+    <div class="content">
+      <h3>SQuInT presentation</h3>
+      <p>Presented "Random matrix product states are pseudoentangled" at the SQuInT 2024 Annual Workshop</p>
+    </div>
+  </div>
+
+  <div class="entry">
+    <span class="date">Oct 11, 2024</span>
+    <div class="content">
+      <h3>Preprint: Learning dynamic quantum circuits for efficient state preparation</h3>
+      <p>Published manuscript "Learning dynamic quantum circuits for efficient state preparation" on arXiv</p>
+    </div>
+  </div>
+
+  <div class="entry">
+    <span class="date">Jun 12, 2024</span>
+    <div class="content">
+      <h3>Preprint: Multi-reference Quantum Davidson Algorithm for Quantum Dynamics </h3>
+      <p>Published manuscript "Multi-reference Quantum Davidson Algorithm for Quantum Dynamics" on arXiv</p>
+    </div>
+  </div>
+
+  <div class="entry">
+    <span class="date">Mar 5, 2024</span>
+    <div class="content">
+      <h3>March Meeting Presentation</h3>
+      <p>Presented "Learning dynamic quantum circuits for state preparation" at the 2024 APS March Meeting</p>
+    </div>
+  </div>
+
+  <div class="entry">
+    <span class="date">Jan 1, 2024</span>
+    <div class="content">
+      <h3>Joined LANL</h3>
+      <p>Started position as graduate research assistant at Los Alamos National Laboratory</p>
+    </div>
+  </div>
+</div>

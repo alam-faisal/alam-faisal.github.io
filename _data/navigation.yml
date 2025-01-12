@@ -10,3 +10,6 @@ main:
 
   - title: "CV"
     url: /files/alam_cv.pdf
+
+  - title: "News"
+    url: /_pages/news.html

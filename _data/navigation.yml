@@ -8,8 +8,10 @@ main:
   - title: "Publications"
     url: /publications/
 
+  - title: "News"
+    url: /_pages/news.html
+
   - title: "CV"
     url: /files/alam_cv.pdf
 
-  - title: "News"
-    url: /_pages/news.html
+

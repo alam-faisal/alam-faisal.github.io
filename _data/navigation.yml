@@ -5,13 +5,11 @@
 # prevent it from being included in the site.
 
 main:
+  - title: "News"
+    url: /_pages/news.html
+  
   - title: "Publications"
     url: /publications/
 
-  - title: "News"
-    url: /_pages/news.html
-
   - title: "CV"
     url: /files/alam_cv.pdf
-
-

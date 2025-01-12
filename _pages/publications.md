@@ -5,6 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
+[Transmon qutrit-based simulation of spin-1 AKLT systems](https://www.arxiv.org/abs/2412.19786)
 
 [Learning dynamic quantum circuits for efficient state preparation](https://arxiv.org/abs/2410.09030)
 

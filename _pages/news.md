@@ -1,6 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
+---
+layout: single
+permalink: /news/
+title: "News & Updates"
+author_profile: true
+---
+
 <style>
   .timeline {
     position: relative;

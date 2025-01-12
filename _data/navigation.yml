@@ -6,7 +6,7 @@
 
 main:
   - title: "News"
-    url: /_pages/news.html
+    url: /news/
   
   - title: "Publications"
     url: /publications/

@@ -94,7 +94,7 @@ author_profile: true
     <div class="entry">
       <span class="date">Oct 11, 2024</span>
       <div class="content">
-        <h3>New Preprint: Learning dynamic quantum circuits for efficient state preparation</h3>
+        <h3>Preprint: Learning dynamic quantum circuits for efficient state preparation</h3>
         <p>Published manuscript "Learning dynamic quantum circuits for efficient state preparation" on arXiv</p>
       </div>
     </div>
@@ -119,7 +119,7 @@ author_profile: true
     <div class="entry">
       <span class="date">Jan 1, 2024</span>
       <div class="content">
-        <h3>Jointed LANL</h3>
+        <h3>Joined LANL</h3>
         <p>Started position as graduate research assistant at Los Alamos National Laboratory</p>
       </div>
     </div>

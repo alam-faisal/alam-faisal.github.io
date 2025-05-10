@@ -10,9 +10,9 @@ redirect_from:
 I'm a graduate student specializing in quantum information at the University of Illinois, where I am a member of the [Clark group](https://clark.physics.illinois.edu/). I am currently visiting Los Alamos National Lab as a graduate researcher supervised by Lukasz Cincio. 
 
 The research directions I am most excited about right now are: 
-* compilation of quantum algorithms to hardware.
-* classical simulation of noiseless and noisy quantum computation.
-* quantum algorithms for time evolution and state preparation.
+* compilation of quantum algorithms to hardware
+* classical simulation of noiseless and noisy quantum computation
+* quantum algorithms for time evolution and state preparation
 * dynamic quantum circuits
 
 In the past I have worked on gravitational waves and bound states in quantum field theories. 

@@ -3,6 +3,42 @@ layout: post
 title: "The Hamming Code"
 ---
 
+<style>
+  .post-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.7;
+  }
+
+  .post-content h2, .post-content h3 {
+    margin-top: 2em;
+    color: #1e40af;
+  }
+
+  .post-content code {
+    background-color: #f3f4f6;
+    padding: 2px 4px;
+    border-radius: 4px;
+  }
+
+  .post-content pre {
+    background-color: #f9fafb;
+    padding: 1em;
+    border-radius: 6px;
+    overflow-x: auto;
+  }
+
+  .post-content img {
+    display: block;
+    margin: 30px auto;
+    max-width: 100%;
+  }
+</style>
+
+<div class="post-content">
+
 This is the first in a series of blog posts exploring the compilation of quantum algorithms to fault-tolerant architectures. We will 
 1. begin with the classical Hamming code, 
 2. extend it to the quantum Steane code, 
@@ -13,6 +49,8 @@ This is the first in a series of blog posts exploring the compilation of quantum
 The series will focus on specifics (specific code, specific decoder, specific algorithm), and will aim to build intuition through numerical experiments. 
 
 In this post, I will give an overview of the $[[7,4,3]]$ Hamming code. 
+
+<!--more-->
 
 ### Definition of the code
 
@@ -216,8 +254,10 @@ print(f"threshold = {threshold}")
 ```
 
 The simulation shows that the threshold of the `[[7,4,3]]` Hamming code is approximately 0.07: 
-![[hamming_threshold.pdf]]
+![Threshold plot](/assets/img/hamming_threshold.png)
 
 ### Next time
 
 In the next post I will describe the Steane code, which can be thought of a quantum extension of the Hamming code described here. Many of the same ideas will reappear in the guise of quantum states and stabilizers, and we will end by approximating the threshold of the Steane code. 
+
+</div>

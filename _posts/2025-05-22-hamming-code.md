@@ -109,7 +109,15 @@ $$
 
 A valid codeword $x$ then satisfies: $Hx^T=0$, where $0$ is the vector of 3 zeros. The codespace is, therefore, simply the kernel of the parity check matrix. 
 
-The dimension of the kernel follows from the rank-nullity theorem: $\dim(\text{domain}(H))=\dim(\text{rank}(H))+\dim(\text{ker}(H))$. Since $H$ has 3 linearly independent rows, its rank is 3 and its nullity is 4, which confirms the previous claim that the codespace is 4 dimensional. 
+The dimension of the kernel follows from the rank-nullity theorem: 
+
+$$
+\begin{align}
+\dim(\text{domain}(H))=\dim(\text{rank}(H))+\dim(\text{ker}(H)).
+\end{align}
+$$
+
+Since $H$ has 3 linearly independent rows, its rank is 3 and its nullity is 4, which confirms the previous claim that the codespace is 4 dimensional. 
 
 We can easily find a basis for the codespace by computing the kernel of $H$. 
 

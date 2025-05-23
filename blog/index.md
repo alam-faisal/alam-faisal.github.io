@@ -36,12 +36,27 @@ author_profile: true
 
   .page-title {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+  }
+
+  .blog-intro {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    padding: 0 20px;
+    font-size: 1em;
+    line-height: 1.6;
+    color: #333;
   }
 </style>
 
 <div class="page-title">
   <h1>Blog</h1>
+</div>
+
+<div class="blog-intro">
+  <p>
+    Welcome to my blog! I plan to share notes and thoughts on various topics within physics, mathematics, and computer science.
+  </p>
 </div>
 
 <div class="blog-container">

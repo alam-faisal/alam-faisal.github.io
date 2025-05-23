@@ -4,6 +4,15 @@ title: "The Hamming Code"
 ---
 
 <style>
+  .page__title,
+  .post-title,
+  h1.page-title {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+  }
+
   .post-content {
     max-width: 800px;
     margin: 0 auto;
@@ -36,39 +45,18 @@ title: "The Hamming Code"
     max-width: 100%;
   }
 
-  pre code span.highlight {
+  /* Fix unwanted line highlights in code */
+  pre.highlight,
+  pre code,
+  pre code span,
+  code {
     background: none !important;
-  }
-
-  pre code {
+    box-shadow: none !important;
     padding: 0 !important;
   }
 </style>
 
-<style>
-  /* Disable Rouge line-by-line highlighting */
-  pre.highlight,
-  pre code,
-  pre code span {
-    background: none !important;
-    box-shadow: none !important;
-  }
-
-  pre {
-    background-color: #f9fafb !important;
-    padding: 1em;
-    border-radius: 6px;
-    overflow-x: auto;
-  }
-
-  code {
-    background: none;
-  }
-</style>
-
 <div class="post-content" markdown="1">
-
-# The Hamming Code
 
 This is the first in a series of blog posts exploring the compilation of quantum algorithms to fault-tolerant architectures. We will 
 1. begin with the classical Hamming code,

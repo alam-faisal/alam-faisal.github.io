@@ -1,4 +1,7 @@
-Tags: [[quantum-error-correction]]
+---
+layout: post
+title: "The Hamming Code"
+---
 
 This is the first in a series of blog posts exploring the compilation of quantum algorithms to fault-tolerant architectures. We will 
 1. begin with the classical Hamming code, 

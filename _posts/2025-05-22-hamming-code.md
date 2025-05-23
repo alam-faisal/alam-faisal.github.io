@@ -56,6 +56,7 @@ title: "The Hamming Code"
   }
 </style>
 
+<h1 class="page__title">The Hamming Code</h1>
 <div class="post-content" markdown="1">
 
 This is the first in a series of blog posts exploring the compilation of quantum algorithms to fault-tolerant architectures. We will 
@@ -145,7 +146,6 @@ $$
 Therefore, given the parity check matrix, one can compute the kernel and use it as an encoding map.
 
 ```python
-
 # encoding a message into a codeword
 m = np.array([1, 0, 0, 1])
 m = GF2(m)
@@ -179,7 +179,6 @@ First we extract the syndrome, $Hy^T=He^T\equiv s$. Note that $s$ has 3 bits. So
 How do we decode this syndrome? Note that $s=He^T$ simply picks out the column of $H$ corresponding to the bit that has flipped. So, for instance, if the 3rd bit has flipped, $s$ is going to be $110$. Since there is a one-to-one mapping between syndromes and bit-flip locations, we can decode syndromes by using $H$ as a lookup table, and then correct the error by flipping the errant bits back. 
 
 ```python
-
 # flip a bit
 xp = x + GF2([0, 0, 0, 1, 0, 0, 0])
 
@@ -202,7 +201,6 @@ print(f"remaining error = {remaining_error}")
 What happens if 2 bits flip simultaneously? The syndrome $s$ is not $0$ so we can still detect that such an error. However, since there are only $8$ unique syndromes, and $7$ choose $2$ such events, there is no way to decode the syndrome, and any correction we perform might end up making matters worse. 
 
 ```python
-
 # detection but no correction
 xp = x + GF2([0, 0, 0, 1, 0, 0, 1])
 s = H @ xp.T

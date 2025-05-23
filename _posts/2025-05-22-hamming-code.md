@@ -235,14 +235,14 @@ print(f'distance = {d}')
 The distance of a code is defined as the minimum number of errors that can turn one codeword into another. We can work it out formally: 
 
 $$
-\begin{align}
-d &= \min_{x,y\in X}|x-y|_H \\ 
-&= \min_{x\in X}|x|_H \\ 
+\begin{align*}
+d &= \min_{x,y\in X}\lvert x-y\rvert_H \\ 
+&= \min_{x\in X}\lvert x\rvert_H \\ 
 &= 3,
-\end{align}
+\end{align*}
 $$
 
-where $X$ is the codespace and $|\cdot|_H$ is the Hamming weight. In the second line we used the fact that the difference of two codewords is also a codeword, and in the last line we used the fact that the minimum Hamming weight of a row in $G$ is 3. 
+where $X$ is the codespace and $\lvert\cdot\rvert_H$ is the Hamming weight. In the second line we used the fact that the difference of two codewords is also a codeword, and in the last line we used the fact that the minimum Hamming weight of a row in $G$ is 3. 
 
 ## Threshold 
 
@@ -251,7 +251,6 @@ Suppose each bit has some probability of flipping. This is called the physical e
 We can study the threshold below which the encoding is helpful by simulating the error correction protocol: 
 
 ```python
-
 def cycle(x, p):
     err = GF2([1 if np.random.rand() < p else 0 for _ in range(7)])
     xp = x + err

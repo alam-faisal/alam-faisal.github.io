@@ -35,6 +35,14 @@ title: "The Hamming Code"
     margin: 30px auto;
     max-width: 100%;
   }
+
+  pre code span.highlight {
+    background: none !important;
+  }
+
+  pre code {
+    padding: 0 !important;
+  }
 </style>
 
 <div class="post-content" markdown="1">
@@ -42,7 +50,6 @@ title: "The Hamming Code"
 # The Hamming Code
 
 This is the first in a series of blog posts exploring the compilation of quantum algorithms to fault-tolerant architectures. We will 
-
 1. begin with the classical Hamming code,
 2. extend it to the quantum Steane code,
 3. learn about compilations of $T$-gates via magic state distillation,
@@ -97,7 +104,6 @@ The dimension of the kernel follows from the rank-nullity theorem: $\dim(\text{d
 We can easily find a basis for the codespace by computing the kernel of $H$. 
 
 ```python
-
 import numpy as np
 import galois
 
@@ -206,7 +212,6 @@ print(f"remaining error = {remaining_error}")
 What about 3 simultaneous bit flips? Looking at the generator matrix, we note that 3 bit flips are sufficient to convert the second codeword to the third. This means that 3 simultaneous bit flips could occur, and $Hy^T$ would still give $0$. Therefore, we cannot even detect some of the 3 bit flip events. 
 
 ```python
-
 # cannot even detect
 xp = x + GF2([0, 0, 1, 1, 0, 0, 1])
 s = H @ xp.T

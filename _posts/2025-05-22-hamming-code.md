@@ -37,13 +37,14 @@ title: "The Hamming Code"
   }
 </style>
 
-<div class="post-content">
+<div class="post-content" markdown="1">
 
 This is the first in a series of blog posts exploring the compilation of quantum algorithms to fault-tolerant architectures. We will 
-1. begin with the classical Hamming code, 
-2. extend it to the quantum Steane code, 
-3. learn about compilations of $T$-gates via magic state distillation, 
-4. reproduce key papers describing fault-tolerant compilation, and 
+
+1. begin with the classical Hamming code,
+2. extend it to the quantum Steane code,
+3. learn about compilations of $T$-gates via magic state distillation,
+4. reproduce key papers describing fault-tolerant compilation, and
 5. explore methods to optimize the implementation of quantum simulation algorithms on early fault-tolerant devices
 
 The series will focus on specifics (specific code, specific decoder, specific algorithm), and will aim to build intuition through numerical experiments. 

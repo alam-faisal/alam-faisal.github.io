@@ -5,13 +5,13 @@ title: "The Hamming Code"
 
 <style>
   .page__title,
-  .post-title,
-  h1.page-title {
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 1.5rem;
-    font-size: 2rem;
-  }
+.post-title,
+h1.page-title {
+  text-align: center;
+  margin-top: 2.5rem;  /* ← This adds vertical space */
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
 
   .post-content {
     max-width: 800px;

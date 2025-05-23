@@ -13,3 +13,6 @@ main:
 
   - title: "Resume"
     url: /files/alam_cv.pdf
+
+  - title: "Blog"
+    url: /blog/

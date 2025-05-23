@@ -45,6 +45,27 @@ title: "The Hamming Code"
   }
 </style>
 
+<style>
+  /* Disable Rouge line-by-line highlighting */
+  pre.highlight,
+  pre code,
+  pre code span {
+    background: none !important;
+    box-shadow: none !important;
+  }
+
+  pre {
+    background-color: #f9fafb !important;
+    padding: 1em;
+    border-radius: 6px;
+    overflow-x: auto;
+  }
+
+  code {
+    background: none;
+  }
+</style>
+
 <div class="post-content" markdown="1">
 
 # The Hamming Code

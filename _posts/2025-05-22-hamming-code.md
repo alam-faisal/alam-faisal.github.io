@@ -66,7 +66,7 @@ This is the first in a series of blog posts exploring the compilation of quantum
 4. reproduce key papers describing fault-tolerant compilation, and
 5. explore methods to optimize the implementation of quantum simulation algorithms on early fault-tolerant devices
 
-The series will focus on specifics (specific code, specific decoder, specific algorithm), and will aim to build intuition through numerical experiments. 
+The series will focus on specifics (specific code, specific decoder, specific algorithm), and will aim to build intuition through [numerical experiments](https://github.com/alam-faisal/FTCompile). 
 
 In this post, I will give an overview of the $[[7,4,3]]$ Hamming code. 
 

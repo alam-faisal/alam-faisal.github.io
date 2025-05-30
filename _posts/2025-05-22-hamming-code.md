@@ -252,11 +252,11 @@ $$
 
 where $X$ is the codespace and $\lvert\cdot\rvert_H$ is the Hamming weight. In the second line we used the fact that the difference of two codewords is also a codeword, and in the last line we used the fact that the minimum Hamming weight of a row in $G$ is 3. 
 
-## Threshold 
+## Break-even 
 
 Suppose each bit has some probability of flipping. This is called the physical error rate. Consider building a $[[7,4,3]]$ Hamming code from such bits. For low physical error rate, we will only ever see single bit flips, which the Hamming code can correct. However, as the physical error rate increases, more and more bits begin flipping simultaneously, and the error correction cycle fails. The rate at which error correction fails is called the logical error rate. As the physical error rate increase, at some point our encoding makes matters worse rather than better. 
 
-We can study the threshold below which the encoding is helpful by simulating the error correction protocol: 
+We can study the break-even below which the encoding is helpful by simulating the error correction protocol: 
 
 ```python
 def cycle(x, p):
@@ -285,19 +285,19 @@ for pp in pp_opts:
     pl_means.append(np.mean(pl_list))
     pl_stds.append(np.std(pl_list))
 
-threshold = 0.0
+breakeven = 0.0
 for pp, pl in zip(pp_opts, pl_means):
     if pl > pp:
-        threshold = pp
+        breakeven = pp
         break
-print(f"threshold = {threshold}")
+print(f"break-even point = {breakeven}")
 ```
 
-The simulation shows that the threshold of the `[[7,4,3]]` Hamming code is approximately 0.07: 
-![Threshold plot](/assets/img/hamming_threshold.png)
+The simulation shows that the break-even point of the `[[7,4,3]]` Hamming code is approximately 0.07: 
+![Break-even plot](/assets/img/hamming_threshold.png)
 
 ## Next time
 
-In the next post I will describe the Steane code, which can be thought of a quantum extension of the Hamming code described here. Many of the same ideas will reappear in the guise of quantum states and stabilizers, and we will end by approximating the threshold of the Steane code. 
+In the next post I will describe the Steane code, which can be thought of a quantum extension of the Hamming code described here. Many of the same ideas will reappear in the guise of quantum states and stabilizers, and we will end by approximating the break-even point of the Steane code. 
 
 </div>

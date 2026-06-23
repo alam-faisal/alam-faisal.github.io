@@ -1,0 +1,30 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+
+const posts = (await getCollection('blog')).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+
+function formatDate(d: Date) {
+  return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+}
+---
+<Base title="Blog" description="Writing on quantum computing, mathematics, and adjacent ideas.">
+  <div class="container">
+    <div class="blog-index">
+      <h1>Writing</h1>
+      <div class="blog-list">
+        {posts.map(post => (
+          <div class="blog-entry">
+            <a href={`/blog/${post.slug}`}>{post.data.title}</a>
+            <div class="entry-meta">{formatDate(post.data.date)}</div>
+            {post.data.description && (
+              <p class="entry-desc">{post.data.description}</p>
+            )}
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</Base>
